@@ -763,7 +763,7 @@ def register_commands(app):
         if not p.captured_chars:
             await message.reply(
                 "📭 **No captured characters yet!**\n\n"
-                "Fight spawning characters with `/challenge [name]`!"
+                "Fight spawning characters with `/challenge '[name]!"
             )
             return
 
