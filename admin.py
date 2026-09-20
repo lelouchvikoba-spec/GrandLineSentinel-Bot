@@ -1656,7 +1656,7 @@ async def spawn_character(app, chat_id, chat_name):
             f"Type: MYTHICAL\n"
             f"Reward: 10,000,000,000 + 1 Token\n\n"
             f"Despawns in 5 min\n"
-            f"Type `/challenge [name]` to fight!"
+            f"Type `/challenge `[name] to fight!"
         )
     elif normal_characters:
         char = random.choice(normal_characters)
@@ -1666,7 +1666,7 @@ async def spawn_character(app, chat_id, chat_name):
             f"Type: Normal\n"
             f"Reward: Random Bounty + XP\n\n"
             f"Despawns in 5 min\n"
-            f"Type `/challenge [name]` to fight!"
+            f"Type `/challenge `[name] to fight!"
         )
     else:
         return
