@@ -846,7 +846,7 @@ def register_pvp(app):
 
         args = message.text.split()
         if len(args) < 2:
-            await message.reply("Type `/challenge [name]`!")
+            await message.reply("Type `/challenge `[name]!")
             return
 
         guessed = " ".join(args[1:]).lower().strip()
@@ -994,7 +994,7 @@ def register_pvp(app):
             f"{ch['char'].get('name', '?')}\n"
             f"{'MYTHICAL' if ch['is_mythical'] else 'Normal'}\n\n"
             f"{int(left // 60)}m {int(left % 60)}s left\n\n"
-            f"`/challenge [name]`"
+            f"`/challenge `[name]"
         )
 
    # ==================== /trade ====================
